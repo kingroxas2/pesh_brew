@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980102910236",
+    "project_id": "peshbrew",
+    "storage_bucket": "peshbrew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980102910236:android:de713860f94eb52d60ead9",
+        "android_client_info": {
+          "package_name": "com.example.pesh_brew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980102910236-h3hrmbvh6jl8oeb7hf6td1slqi86kbno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmMO9pYr2Iu_uIXNhdzY7ZqeTuXWoIce4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980102910236-h3hrmbvh6jl8oeb7hf6td1slqi86kbno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
