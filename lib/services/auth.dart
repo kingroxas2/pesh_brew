@@ -11,6 +11,15 @@ class AuthService{
     // ignore: unnecessary_null_comparison
     return user != null ? GetUid(uid: user.uid) : null;
   }
+
+  //auth change user stream
+
+  Stream<GetUid?> get user{
+    return _auth.authStateChanges()
+    .map((User? user) => _userFromFirebaseUser(user!));
+   
+    
+  }
   
   // sign in anon
   Future signInAnon() async{
